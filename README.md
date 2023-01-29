@@ -1,4 +1,4 @@
-# tic-tac-toe-minimax
+# Tic-Tac-Toe-MiniMax
  Tic-Tac-Toe game developed by Bardia Fardar
 
 # Introduction
