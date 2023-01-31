@@ -1,6 +1,4 @@
-# Bardia Fardar
-# Student Number 4003333028
-# AI Project - Final
+
 
 from colorama import Fore, Style
 from random import choice
