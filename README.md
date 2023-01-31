@@ -1,4 +1,4 @@
-# Tic-Tac-Toe-MiniMax
+# tic-tac-toe-minimax
  Tic-Tac-Toe game developed by Bardia Fardar
 
 # Introduction
@@ -82,7 +82,7 @@ def MiniMaxAB(brd, depth, alpha, beta, player):
 * **depth**: index of the node in the game tree
 * **alpha**: maximum
 * **beta**: minimum
-* **player**: may be a *alpha* player or *beta* player
+* **player**: may be a *X* player or *O* player
 
 ```python
 if alpha >= beta:
