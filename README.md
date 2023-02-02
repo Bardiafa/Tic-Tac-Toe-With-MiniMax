@@ -1,18 +1,37 @@
-# tic-tac-toe-minimax
+# Tic-Tac-Toe-MiniMax
+-------
  Tic-Tac-Toe game developed by Bardia Fardar
 
 # Introduction
+-------
 To solve games using AI, we will introduce the concept of a game tree followed by mini-max algorithm. The different states of the game are represented by nodes in the game tree.
 In the game tree, the nodes are sorted in levels that correspond to each player's turns in the game so that the “root” node of the tree  is the beginning position in the game. In tic-tac-toe, this would be the empty grid with no X`s or O`s played yet. Under root node, on the second level, there are the possible states that can result from the first player’s moves, be it X or O. We call these nodes the “children” of the root node. Each node on the second level, would further have as its children nodes the states that can be reached from it by the opposing player's moves. This is continued, level by level, until reaching state where the game is over.
 
+#How to Play
+----
+`pip install colorama`
+
+1.Run the script
+
+2.Select mode 1 for player versus AI or mode 2 for AI versus AI
+
+3.Follow the prompts to make your move as the player
+
+4.The game will continue until a winner is determined or it results in a draw
+
+#Dependencies
+-------
+The script requires the `random` and `math` libraries to run.
 # What is Mini-max?
 Minimax is a decision rule used in artificial intelligence, decision theory, game theory, statistics, and philosophy for minimizing the possible loss for a worst case (maximum loss) scenario. When dealing with gains, it is referred to as "maximin" – to maximize the minimum gain.
 
 # How does it works?
+-------
 In game theory, minimax is a decision rule used to minimize the worst-case potential loss; in other words, a player considers all of the best opponent responses to his strategies, and selects the strategy such that the opponent's best strategy gives a payoff as large as possible.
 
 
 # Understanding the Algorithm
+-------
 
 ```python
 
@@ -149,6 +168,6 @@ else:
 For XPLAYER player, a bigger score will be received. For a YPlayer, a lower score will be received.
 
 # Evaluation Function
-
+-------
 An evaluation function, also known as a heuristic evaluation function or static evaluation function, is a function used by game-playing programs to estimate the value or goodness of a position in the minimax and related algorithms. The evaluation function is typically designed to prioritize speed over accuracy; the function looks only at the current position and does not explore possible moves (therefore static).
 
