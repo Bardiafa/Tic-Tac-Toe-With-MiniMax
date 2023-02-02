@@ -7,7 +7,7 @@
 To solve games using AI, we will introduce the concept of a game tree followed by mini-max algorithm. The different states of the game are represented by nodes in the game tree.
 In the game tree, the nodes are sorted in levels that correspond to each player's turns in the game so that the “root” node of the tree  is the beginning position in the game. In tic-tac-toe, this would be the empty grid with no X`s or O`s played yet. Under root node, on the second level, there are the possible states that can result from the first player’s moves, be it X or O. We call these nodes the “children” of the root node. Each node on the second level, would further have as its children nodes the states that can be reached from it by the opposing player's moves. This is continued, level by level, until reaching state where the game is over.
 
-#How to Play
+# How to Play
 ----
 `pip install colorama`
 
@@ -19,7 +19,7 @@ In the game tree, the nodes are sorted in levels that correspond to each player'
 
 4.The game will continue until a winner is determined or it results in a draw
 
-#Dependencies
+# Dependencies
 -------
 The script requires the `random` and `math` libraries to run.
 # What is Mini-max?
